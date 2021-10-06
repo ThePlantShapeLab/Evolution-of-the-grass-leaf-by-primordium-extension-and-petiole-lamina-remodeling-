@@ -45,5 +45,5 @@ The "Tissue_sheet_models_of_further_leaf_development" contains the code for the 
       * Model "Kwoxprs": Eudicot prs wox1 mutant, using the petiole-leaf hypothesis model. Output of this model is shown in Fig. 4T.
         
 
-This model code is available via the Creative commons attribution 4.0 international (CC BY 4.0) licence ![image](https://user-images.githubusercontent.com/83765467/136252265-7ea6d87b-93c6-499e-8ae2-4918263b0b74.png)
-for licencing information regarding the GPT Framework software itself please refer  to https://sourceforge.net/projects/gftbox/files/
+This model code is available via the Creative commons attribution 4.0 international (CC BY 4.0) licence. 
+For licencing information regarding the GPT Framework software itself please refer  to https://sourceforge.net/projects/gftbox/files/
