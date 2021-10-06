@@ -5,7 +5,7 @@ See original manuscript and supplementary materials for a full description of th
 Models are created in the Growing Polarised Tissue Framework (https://sourceforge.net/projects/gftbox/files/ ) with a Matlab R2021a. 
 Published models were run using rev.20210803 of the GPTFramework. 
 
-The "Volumetric_models_of_leaf_primordium_emergence" contains the code for the models shown in the Main Text Figures 2,4, and Supplementary Figures S1,S2. These models are based on a 3D dome-shaped canvas, and the original description of the modelling framework can be found at : https://doi.org/10.1098/rsob.190057 
+The "Volumetric_models_of_leaf_primordium_emergence" contains the code for the 8 models of primoridum initiation shown in the Main Text Figures 2,4, and Supplementary Figures S1,S2. These models are based on a 3D dome-shaped canvas, and the original description of the modelling framework can be found at : https://doi.org/10.1098/rsob.190057 
 
 In the code Kpar corresponds to KOP in the paper, Kpar2 corresponds to KPD, and KPER corresponds to KPER. 
         
@@ -26,6 +26,21 @@ In the code Kpar corresponds to KOP in the paper, Kpar2 corresponds to KPD, and 
         * Model 8: "Sloping primordium model". A single othoplanar polarity field with high specified growth rates perpendicular to the polarity in the primordium zone (PZ) and the apex. Within the PZ growth rates decline from the midpoint. This model corresponds to Fig. 2E to F. 
       
                    
-The "leaf_model" contains the code for the models shown in the Main Text Figures 3,4, and Supplementary Figures S4,S5,S6,S8,S9,S10 
-        WT Grass:
+The "Tissue_sheet_models_of_further_leaf_development" contains the code for the models shown in the Main Text Figures 3,4, and Supplementary Figures S4,S5,S6,S8,S9,S10. There are 9 models in total. 
+      
+      * Model "Grassleaf": Wildtype grass leaf model. Output of this model is shown in Fig. 3D to H. 
+      
+      * Model "nsheathmutant": Narrowsheath mutant model. Output of this model is shown in Fig. 3I to L. 
+      
+      * Model "prs": Eudicot prs mutant, using the petiole-sheath hypothesis model. Output of this model is shown only in the supplementary movie S5.
+      
+      * Model "dicot": Wildtype eudicot leaf using the petiole-sheath hypothesis model. Output of this model is shown in Fig. 4L to O. 
+      
+      * Model "bop" : Grass bop mutant model (no sheath identity). Output of this model is in Supplementary Figure S10. 
+      
+      * Model "Kaplan": Wildtype eudicot leaf using the petiole-leaf hypothesis model. Output of this model is shown in Fig. 4P to S.
+      
+      * Model "woxprs": Eudicot prs wox1 mutant, using the petiole-sheath hypothesis model. Output of this model is shown in Fig. 4U.
+      
+      * Model "Kwoxprs": Eudicot prs wox1 mutant, using the petiole-leaf hypothesis model. Output of this model is shown in Fig. 4T.
         
